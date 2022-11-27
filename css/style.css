@@ -1,0 +1,90 @@
+*{
+    margin: 0;padding: 0;
+}
+html{
+font-family:Poppins ;
+font-weight: 400px;
+font-size: 16px;
+}
+header{
+min-height: 100vh;
+background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8) ),url(../images/hero.jpg);
+background-position: center;
+background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+    margin-top: 20px;
+}
+
+.main-nav{
+    list-style: none;
+    display: flex;
+}
+.main-nav li{
+    margin-left: 20px;
+
+}
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.main-nav li a:hover{
+    color: orangered;
+}
+.hero-box{
+    position: absolute;
+    top: 40%;
+}
+h1{
+   color: white; 
+   font-size: 2rem;text-transform: uppercase;
+   font-weight: 300px;
+   margin-bottom: 20px;
+
+}
+.btn{
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    border: solid orangered 1px;
+    background-color: orangered;
+    padding: 7px 15px;
+    border-radius: 12px;
+}
+.btn:hover{
+    background-color: transparent;
+}
+
+section{
+    padding: 40px 0;
+}
+
+h2{
+    
+    font-size: 2rem;text-transform: uppercase;
+    font-weight: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+} 
+hr{
+    width: 100px;
+    border: orangered 3px solid;
+    background-color: orangered;
+margin-left: 500px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  
+}
+.features-info{
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 1.5;
+}
